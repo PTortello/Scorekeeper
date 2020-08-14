@@ -28,3 +28,22 @@ position = {'DH':0, 'P':1, 'C':2, '1B':3, '2B':4,
             '3B':5, 'SS':6, 'LF':7, 'CF':8, 'RF':9}
 
 print(position.get(player1.position))
+
+#filename = path.join(filedir, 'teams/' + team + '.txt')
+#with open(filename, 'w') as f:
+    #f.write(team.title() + '\n')
+
+teams = ('angels', 'astros', 'athletics', 'bluejays', 'braves', 'brewers',
+            'cardinals', 'cubs', 'dbacks', 'dodgers', 'giants', 'indians',
+            'mariners', 'marlins', 'mets', 'nationals', 'orioles', 'padres',
+            'phillies', 'pirates', 'rangers', 'rays', 'reds', 'redsox',
+            'rockies', 'royals', 'tigers', 'twins', 'whitesox', 'yankees')
+
+counter = 0
+for team in teams:
+    tab = '\t' if len(team) > 7 else '\t\t'
+    print(team + tab, end='')
+    counter += 1
+    if counter == 6:
+        print()
+        counter = 0
