@@ -27,8 +27,6 @@ print(player1.jersey + ' ' + player1.name + '\t' + player1.position)
 position = {'DH':0, 'P':1, 'C':2, '1B':3, '2B':4,
             '3B':5, 'SS':6, 'LF':7, 'CF':8, 'RF':9}
 
-print(position.get(player1.position))
-
 #filename = path.join(filedir, 'teams/' + team + '.txt')
 #with open(filename, 'w') as f:
     #f.write(team.title() + '\n')
