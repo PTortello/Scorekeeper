@@ -1,7 +1,7 @@
 # Scorekeeper
 ### Baseball Scorekeeper
 
-##### Reference
+#### Reference
 
 https://en.wikipedia.org/wiki/Baseball_scorekeeping
 
